@@ -305,7 +305,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
 }
 .img-rounded {
@@ -462,6 +462,7 @@ p {
 }
 .lead {
   margin-bottom: 22px;
+  text-align: justify;
   font-size: 18px;
   font-weight: 200;
   line-height: 1.4;

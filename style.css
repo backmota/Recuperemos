@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 1.1em;
 }
 
+p.alineado{
+     text-align: justify;
+}
+
 .features,
 .blog,
 .gallery,
@@ -54,6 +58,10 @@ header .container-fluid
     background-size: cover;
     height: 100vh;
     padding-top: 36px;
+}
+
+.red{
+    color: #D81534;
 }
 
 .hamburger
@@ -106,6 +114,14 @@ header .container-fluid
 .number .container-fluid
 {
     background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.number2 .container-fluid
+{
+    background-image: url("images/background3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
